@@ -109,7 +109,7 @@ students = [
   Student.new("Sasha", "GRADE_TO_TEN", true)
 ]
 
-teacher1 = Teacher.new("Sucker", students)
+teacher1 = Teacher.new("Miha", students)
 
 print(teacher1.goToTen.to_s + "\n")
 print(teacher1.countOfClasses)
